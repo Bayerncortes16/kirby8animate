@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.contain-img {
+    background-image: url(../img/fondococina.png);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kirbyzharick{
+    width: 100%;
+    height: 70%;
+}
+
+.kirbyjhohan{
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.carta{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.capa0{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.capa1{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;  
+}
+
+.KIRBY1{
+    position: absolute;
+    animation-name: Sartenazo;
+    animation: 15s ease infinite;
+}
+
+.KIRBY2 {
+    position: relative;
+    animation-name: CucharonTitle;
+    animation: 15s ease infinite;
+}
+
+@keyframes Sartenazo {
+    0% {
+        
+    }
+
+    50% {
+        
+    }
+
+    100% {
+        
+    }
+}
